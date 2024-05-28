@@ -8,8 +8,8 @@ Python - 3.12
 Poetry - 1.7.1
 
 After installing python and poetry. Use the following command to install dependencies:
-"poetry shell"
-"poetry install --no-root"
+"poetry shell" 
+"poetry install"
 
 After poetry configuration, Run the project, Use the following command:
 
