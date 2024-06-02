@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from .routers import profile, certification
+from .routers import profile, certification, past_experience
 
 app = FastAPI()
 
@@ -9,3 +9,4 @@ async def root():
 
 app.include_router(profile.router, prefix="/api")
 app.include_router(certification.router, prefix="/api")
+app.include_router(past_experience.router, prefix="/api")
