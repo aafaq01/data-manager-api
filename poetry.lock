@@ -88,13 +88,12 @@ files = [
 
 [[package]]
 name = "data-manager-library"
-version = "0.0.2"
+version = "0.0.3"
 description = ""
 optional = false
 python-versions = "<4.0,>=3.12"
 files = [
-    {file = "data_manager_library-0.0.2-py3-none-any.whl", hash = "sha256:f2976d980cb2c25d775f385876c71df0245b3edc4bb0fea04f0ec447adfa155d"},
-    {file = "data_manager_library-0.0.2.tar.gz", hash = "sha256:fddcf91a8c731cffe16a7c4c0bd907b7dafa6c5548e66ca5cfc9a95b0f32027b"},
+    {file = "data_manager_library-0.0.3-py3-none-any.whl", hash = "sha256:e34f536bf30b0f8e76888029501c0f67bdb4368dda649c00d78ef5f92065f741"},
 ]
 
 [package.dependencies]
@@ -1316,4 +1315,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "f6c8049970596a1354e76941cafea047f9c91eb3b51e1b64106906c242cb5b8d"
+content-hash = "bf8c6dc171a28bcc6f99d0e25a5344ff786b4e0944e00929566a9cd7c32ec029"
