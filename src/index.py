@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from .routers import profile, certification, past_experience, contact, programming_skill, project, resume, soft_skill
+from .routers import profile, certification, past_experience, contact, programming_skill, project, resume, soft_skill, tech_stack
 
 app = FastAPI()
 
@@ -15,3 +15,4 @@ app.include_router(programming_skill.router, prefix="/api")
 app.include_router(project.router, prefix="/api")
 app.include_router(resume.router, prefix="/api")
 app.include_router(soft_skill.router, prefix="/api")
+app.include_router(tech_stack.router, prefix="/api")
